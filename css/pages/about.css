@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "../css/responsive.css";
+
+.hero {
+    padding: 128px 20px;
+}
+
+.hero-right img {
+    width: 100%;
+}
+
+.hero-left h6 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-left h1 {
+    max-width: 595px;
+    color: var(--Dark-blue, #282938);
+    font-size: 54px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 65px;
+    margin-bottom: 31px;
+}
+
+.hero-left p {
+    max-width: 484px;
+    color: var(--Dark-blue, #282938);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+/* IMPROVMENT START */
+
+#improvment {
+    padding-bottom: 128px;
+}
+
+.improvment {
+    background-color: #F4F5F5;
+    padding: 96px 20px;
+}
+
+.improvment-left,
+.improvment-right {
+    max-width: 515px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.improvment-left h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    margin-bottom: 16px;
+}
+
+.improvment-left p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.improvment-img img {
+    width: 100%;
+}
+
+/* IMPROVMENT END */
+
+/* TEAM START */
+#team {
+    background-color: #F4F6FC;
+    padding: 128px 20px;
+}
+
+.team h2 {
+    margin-bottom: 30px;
+}
+
+.team-card {
+    padding: 48px 64px 32px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.team-card-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-hover {
+    position: absolute;
+    background: linear-gradient(348deg, #5239FA 17.97%, rgba(255, 255, 255, 0.00) 79.2%);
+    left: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    right: 10px;
+    width: 170px;
+    height: 167px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    bottom: -180px;
+    transition: 0.5s;
+    padding-bottom: 20px;
+}
+
+.team-card:hover .team-hover {
+    bottom: 0px;
+}
+/* TEAM END */
+
+/* RESPONSIVE START */
+
+@media (min-width: 700px) {
+    .hero-right img {
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    .hero {
+        display: flex;
+    }
+    .improvment {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE END */

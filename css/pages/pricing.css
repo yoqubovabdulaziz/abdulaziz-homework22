@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+#plans {
+    padding: 128px 20px;
+}
+
+.plans-card {
+    max-width: 406px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 64px 0 48px;
+    background-color: #F4F6FC;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.plans-card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 48px;
+}
+
+.plans-header h2 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 16px;
+}
+
+.plans-header p {
+    max-width: 562px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 64px;
+}
+
+.plans-card-header h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    transition: 0.5s;
+}
+
+.plans-card-header p {
+    color: var(--Royal-Blue, #2405F2);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    transition: 0.5s;
+}
+
+.plans-card-title {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 48px;
+    transition: 0.5s;
+}
+
+.plans-card-paragraph {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-left: 48px;
+    padding-bottom: 78px;
+    transition: 0.5s;
+}
+
+.plans-card-inform {
+    padding-left: 48px;
+}
+
+.plans-card-inform p {
+    display: inline-block;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.plans-card-button {
+    text-align: center;
+    padding-top: 79px;
+}
+
+.plans-card-button button,
+.plans-card-button a {
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    background-color: #282938;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 15px 47px;
+    border-radius: 41px;
+    border: none;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.plans-card:hover {
+    background-color: #1C1E53;
+}
+
+.plans-card:hover * {
+    color: #fff;
+}
+
+.plans-card:hover .plans-card-header p {
+    color: #FCD980;
+}
+
+.plans-card:hover button,
+.plans-card:hover a {
+    background-color: #FCD980;
+}
+
+@media (min-width: 1000px) {
+    .plans-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .plans-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+    }
+}
