@@ -1,0 +1,42 @@
+bootstrap bu css da kod yozmasdan turib faqatgina
+class berish orqali still beradigan sistema
+
+bu qanday boladi?
+birinchi bootstrapni intall qivolish kere
+
+intall qilishning 2 xil usubi (online va ofline)
+
+ONLINE-bootstrap saytida linklar boladi javascript hamda
+css linklari shularni olib hmtl ga ulab qo'yishlik
+
+OFFLINE- bootstrapdan zip qilib download qivolamiz keyn 
+zipdan chiqarib cs code ga file qilib opkep qoyish kere
+va html ga link qilib ulab qoyish kere
+
+bootstrap klaslar- bo'limlar
+UTILITES :color
+         :bgc color
+         :text-color
+         :border
+         :sizing
+         :spacing
+         :text
+
+COMPOENTS :alert
+          :badge
+          :breadcrumb
+          :buttons
+          :card
+          :list-group
+          :nav
+
+BOOOTS TRAPDA 12 USTUNLIK SISTEMA BOR VA BIZ SHUNDAN
+FOYDALANISHIMIZ KERAK
+
+
+va bootstrapda responsiv break pointlari belgilangan
+sm-576px
+md-768px
+lg-992px
+xl-1200px
+xxl-1400px

@@ -10,12 +10,47 @@
 </head>
 
 <body>
-    <header>
-        <a href="../index.html">home</a>
-        <a href="./about.html">about</a>
-        <a href="#">pricing</a>
-        <a href="./blog.html">blog</a>
-    </header>
+    <nav class="navbar-expand-md navbar navbar-dark bg-dark fixed-top">
+        <div class="container-xl">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/logo-1.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./work.html">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
     <main>
         <section id="plans">
             <div class="container-xl plans">
@@ -125,6 +160,85 @@
                 </div>
             </div>
         </section>
+        <section id="accordion">
+            <div class="container-xl d-flex justify-content-between accordion-res">
+                <div class="accordion-header">
+                    <h2>Frequently asked questions</h2>
+                    <a href="#">Contact us For More Info</a>
+                </div>
+                <div class="accordion accordion-flush" id="accordionExample">
+                    <div class="row accordion-row">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
+                                    aria-expanded="true" aria-controls="collapse-1">
+                                    <span>01</span>How much time does it take ?
+                                </button>
+                            </h2>
+                            <div id="collapse-1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="accordion-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                    <span>02</span>What is your class naming convention ?
+                                </button>
+                            </h2>
+                            <div id="collapse-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolar sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidudunt ut labore et dolore magana aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                                    <span>03</span>How do we communicate ?
+                                </button>
+                            </h2>
+                            <div id="collapse-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p>Lorem ipsum dolar sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidudunt ut labore et dolore magana aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                                    <span>04</span>I have a bigger project. Can you handle it ?
+                                </button>
+                            </h2>
+                            <div id="collapse-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p>Lorem ipsum dolar sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidudunt ut labore et dolore magana aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                                    <span>05</span>What is your class naming convention ?
+                                </button>
+                            </h2>
+                            <div id="collapse-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p>Lorem ipsum dolar sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidudunt ut labore et dolore magana aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
     </main>
     <footer></footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+</html>

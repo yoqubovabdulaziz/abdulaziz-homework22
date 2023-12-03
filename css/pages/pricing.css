@@ -1,8 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-
+@import "../components/header.css";
 #plans {
     padding: 128px 20px;
 }
@@ -135,6 +132,66 @@ a {
     background-color: #FCD980;
 }
 
+/* accordion start */
+
+#accordion {
+    padding: 128px 20px;
+}
+
+.accordion-header h2 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    max-width: 406px;
+}
+
+.accordion-header a {
+    color: var(--Royal-Blue, #2405F2);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.accordion-row {
+    max-width: 843px;
+}
+
+.accordion-button span {
+    color: var(--Royal-Blue, #2405F2);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-right: 58px;
+}
+
+.accordion-button {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.accordion-body {
+    padding-left: 110px;
+}
+
+.accordion-body p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+/* ACCORDION END */
+
 @media (min-width: 1000px) {
     .plans-row {
         display: grid;
@@ -147,5 +204,12 @@ a {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 32px;
+    }
+}
+
+@media (max-width: 900px) {
+    .accordion-res {
+        display: flex;
+        flex-direction: column;
     }
 }
