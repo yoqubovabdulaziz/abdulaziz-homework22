@@ -1,0 +1,48 @@
+@import "../components/footer.css";
+@import "../components/header.css";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    background-color: #F4F6FC;
+}
+
+.hero {
+    padding: 166px 20px;
+}
+
+.hero p {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.paragraph {
+    max-width: 733px;
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}

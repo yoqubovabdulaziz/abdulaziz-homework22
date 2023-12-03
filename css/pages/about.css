@@ -2,9 +2,10 @@
 
 @import "../css/responsive.css";
 @import "../components/header.css";
+@import "../components/footer.css";
 
 .hero {
-    padding: 128px 20px;
+    padding: 168px 20px;
 }
 
 .hero-right img {

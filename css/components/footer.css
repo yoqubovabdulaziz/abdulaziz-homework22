@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#footer {
+    padding: 104px 20px 92px;
+    background-color: #1C1E53;
+}
+
+.footer-left p {
+    max-width: 399px;
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.footer-left img {
+    margin-bottom: 30px;
+}
+
+.footer-email {
+    max-width: 517px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FCD980;
+    margin-bottom: 30px;
+}
+
+.email-left h6,
+.email-right h6 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.email-left a,
+.email-right a {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-right h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 20px;
+}
+
+.footer-right p {
+    max-width: 399px;
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.footer-brands {
+    display: flex;
+    gap: 26px;
+}
+
+/* RESPONSIVE START */
+
+@media (min-width: 500px) {
+    .footer-email {
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 900px) {
+    .footer-row {
+        display: flex;
+        gap: 142px;
+    }
+    .footer-left p {
+        margin-bottom: 86px;
+    }
+    .footer-email {
+        padding-right: 130px;
+    }
+}
+
+
+
+
+/* RESPONSIVE END */

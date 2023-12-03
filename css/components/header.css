@@ -1,3 +1,7 @@
 .navbar-dark {
     background-color: #1C1E53 !important;
 }
+
+.navbar {
+    height: 92px;
+}
