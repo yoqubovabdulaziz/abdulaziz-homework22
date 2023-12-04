@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import "../components/footer.css";
 @import "../components/header.css";
 
@@ -45,4 +47,71 @@
     max-width: 100px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* AP-TAB START */
+
+#portfolio {
+    padding: 96px 20px 64px;
+}
+
+li {
+    list-style-type: none;
+    color: #282938;
+}
+
+.ap-tab-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 50px;
+}
+
+.tab-left img,
+.tab-right img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.ap-tab-content h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 15px;
+}
+
+.ap-tab-content p {
+    max-width: 623px;
+    color: var(--Dark-blue, #282938);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+/* AP-TAB END */
+
+/* RESPONSIVE */
+
+@media (min-width: 640px) {
+    .ap-tab-list {
+        flex-direction: row;
+    }
+    .tab-left img,
+    .tab-right img {
+        max-width: 623px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ap-tab-row {
+        display: flex;
+        justify-content: space-around;
+    }
 }
